@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="rocks" tilewidth="32" tileheight="32">
+  <image source="rocks.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blockType" value="0"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YQQ7AIAgE7RP8/2d7t4rSKAyGwyamibADpCWtpZR6gZ4LlBwsJQdLycFScrCUHCwlxzdOb28b7XB1cJfAMeOTOCRmCkfP48qZNlca7wSO2XMtH5Wj7dts9qhz1evLiM2Lw1vJwdJNHFH+D0keVj168+yutQfPSr6/nixZNPNyqk70frT3T/PMcuzycPrdZsVhEdM6Z9ufyBxW8S3zWOwFXt+03Xkpu0ZkDqlP2r5RODSMf+oQSS+5oAPdQB8AAA==
+  </data>
+ </layer>
+</map>

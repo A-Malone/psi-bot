@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="rocks" tilewidth="32" tileheight="32">
+  <image source="rocks.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blockType" value="0"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blockType" value="2"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blockType" value="3"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3USw6AIAwE0HoETgD3P6VxJSbGIP0NZBaz07avjRYRKZvkcI53j0iHZx+v+tG35z3+95l5r4I5ZlO7RDpGenrUtXR4Gfr6X46o23vuSeOImn/0Jta7WcWRZfBwZBgsd5h5C4s9ZnzT1g6U+TU7RTPM3ATVMOPInlc7G/It/jqyZ6XjfmZFR5HnPxnd8Oa4DA1gLq2j0UEHHXSAhg6s0IEdOrCym2OHnEGeu2xAHwAA
+  </data>
+ </layer>
+</map>

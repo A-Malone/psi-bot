@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="../../../BasicSlickPlatformer/data/grass.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../../../BasicSlickPlatformer/data/rocks.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tileProperty" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="chibihikaru-tilea2" tilewidth="32" tileheight="32">
+  <image source="../../../../1 - ISU/BasicSlickPlatformer/data/chibihikaru-tilea2.png" width="512" height="384"/>
+  <tile id="49">
+   <properties>
+    <property name="blocked" value="true"/>
+    <property name="tileProperty" value="1"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="blockType" value="6"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="blockType" value="2"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="blockType" value="3"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XsQ2AMAwFUTOC92+YgQlpkGgQMrKDf+CKKy3lJSkSN7Nl8vyoex04cCiGQy8cWuHQCodWOLTCoRUOrXBo9SfHFkzdMUOjHdGzzPSVfy0OrXBohUMrHOd8tyHr8OT8XetLDr+oc28zM6Msmb2tMFRZRjsihgpL5V3PVvEGf9oOIqDNzEAfAAA=
+  </data>
+ </layer>
+</map>

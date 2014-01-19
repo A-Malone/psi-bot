@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../../../BasicSlickPlatformer/data/rocks.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blockType" value="0"/>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="17" name="grass" tilewidth="32" tileheight="32">
+  <image source="../../../BasicSlickPlatformer/data/grass.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsOgCAMBFD0Biy8/1WNCUQWiHxa6JCZpHEHPCr1zjkvWEcoyTVz6z91ujca+2gZcntpOWYWHfm10i+qY+QMo/aVjnTeWOhH6RxxJs64kx5H7R1eobTfTI/j60wr3vdoP1AdLe9RYva0vv9d567kLJTqD0o/6Fjn0Ppv0fuR3kvMyvkv7UCzlBxIlj8HiqXGgWCpdVi3tDgsW1odVi09DouWXoc1y4jDau3mYBiGYRgGPzc18VDL
+  </data>
+ </layer>
+</map>

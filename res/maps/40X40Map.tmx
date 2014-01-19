@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="rocks" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <image source="rocks.png" width="128" height="128"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="17" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YQQrDMAwE7SckaZqkbVL//5XZi8EIO24JWGvQYQ66CWk9CHvnnCdnACOYwIOojv3N4AkWsBLVsb8NvMAbfAjnt4MDfEEgnJ/sX85Tqy7lT85Tq67lTzuHtfxp57CWP+0c1vKnnUPzn/kvKNbmP/Mfq/8Y7uur/A0C8999/6U7Z/VfxPx3nb90l6z+S/cZMnO2+++/+y/dufmv3/vPZ9C4B3v2X4/3n9x5K/+x+O7X/9Pc+/CufQ5L75elbpWju/5j5gR9vnZbABkAAA==
+  </data>
+ </layer>
+</map>
