@@ -183,7 +183,7 @@ public class GameMain extends GLApp {
         // Load the model
         crates = new GLModel[12];
         for (int i = 0; i < crates.length; i++) {
-            crates[i] = new GLModel("res/models/Crate/Future/Block" + (i + 1) + ".obj");
+            crates[i] = new GLModel("res/models/Crate/Future/block" + (i + 1) + ".obj");
         }
         //blockModel = new GLModel("res/models/Crate/Future/blo
         asteroid_model = new GLModel("res/models/asteroid/asteroid_model.obj");
